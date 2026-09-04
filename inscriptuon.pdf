@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\geometry{a4paper, margin=1.5cm}
+\definecolor{lightblue}{RGB}{200,220,255}
+\definecolor{lightgray}{RGB}{240,240,240}
+
+\begin{document}
+
+\begin{center}
+    \LARGE \textbf{\faLaptopCode{} FICHE D’INSCRIPTION — CLUB INFORMATIQUE} \\
+    \vspace{0.5cm}
+    \large \textbf{2026}
+\end{center}
+
+\vspace{1cm}
+
+\noindent
+\begin{minipage}{\textwidth}
+\colorbox{lightblue}{\parbox{\textwidth}{
+    \large \textbf{\faRocket{} Rejoins le club, découvre l’informatique et crée tes propres projets !}
+}}
+\end{minipage}
+
+\vspace{1cm}
+
+\section*{\faUser{} 1 — INFORMATIONS PERSONNELLES}
+\noindent
+Prénom : \underline{\hspace{10cm}} \\
+Nom : \underline{\hspace{10cm}} \\
+Âge : \underline{\hspace{2cm}} \\
+Classe : \underline{\hspace{10cm}}
+
+\vspace{1cm}
+
+\section*{\faLaptop{} 2 — CENTRES D’INTÉRÊT}
+\noindent
+Coche les domaines qui t’intéressent : \\
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item[$\square$] \faCode{} Programmation
+    \item[$\square$] \faGamepad{} Création de jeux vidéo
+    \item[$\square$] \faGlobe{} Création de sites web
+    \item[$\square$] \faRobot{} Intelligence artificielle
+    \item[$\square$] \faLinux{} Linux
+    \item[$\square$] \faDesktop{} Hardware / PC
+    \item[$\square$] \faLock{} Cybersécurité
+    \item[$\square$] \faPaintBrush{} Création graphique
+    \item[$\square$] \faMobileAlt{} Applications mobiles
+    \item[$\square$] \faFlask{} Autre : \underline{\hspace{8cm}}
+\end{itemize}
+
+\vspace{1cm}
+
+\section*{\faBolt{} 3 — TON NIVEAU}
+\noindent
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item[$\square$] \textcolor{green}{\faCircle{}} Débutant — Je découvre l’informatique.
+    \item[$\square$] \textcolor{yellow}{\faCircle{}} Intermédiaire — Je connais déjà quelques notions.
+    \item[$\square$] \textcolor{red}{\faCircle{}} Avancé — Je maîtrise déjà plusieurs domaines.
+\end{itemize}
+
+\vspace{1cm}
+
+\section*{\faLightbulb{} 4 — TES IDÉES}
+\noindent
+Qu’aimerais-tu apprendre ou créer au Club Informatique ? \\
+\underline{\hspace{15cm}} \\
+\underline{\hspace{15cm}}
+
+\vspace{1cm}
+
+\section*{\faEnvelope{} 5 — CONTACT}
+\noindent
+Adresse e-mail : \underline{\hspace{12cm}} \\
+Téléphone : \underline{\hspace{12cm}} \\
+Pseudo Discord : \underline{\hspace{12cm}}
+
+\vspace{1cm}
+
+\section*{\faLock{} 6 — VALIDATION}
+\noindent
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item[$\square$] J’ai pris connaissance du règlement du Club Informatique et j’accepte de le respecter.
+    \item[$\square$] J’accepte que les informations fournies soient utilisées uniquement dans le cadre de l’organisation du Club Informatique.
+\end{itemize}
+
+\vspace{1cm}
+
+\noindent
+Date : \underline{\hspace{2cm}} / \underline{\hspace{2cm}} / \underline{\hspace{4cm}} \\
+Signature du participant : \underline{\hspace{10cm}} \\
+\vspace{1cm}
+Signature du responsable légal : \underline{\hspace{10cm}}
+
+\vspace{1cm}
+\begin{center}
+    \footnotesize \textsf{Club Informatique · Fiche d’inscription · 2026}
+\end{center}
+
+\end{document}
